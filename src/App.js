@@ -36,7 +36,7 @@ function App() {
         </div>
 
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/bus-ticket-reservation/">
             <Homepage />
           </Route>
           <Route exact path="/login">
