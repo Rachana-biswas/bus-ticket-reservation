@@ -1,0 +1,71 @@
+
+ 
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.grid td {
+  width: 100px;
+  height: 80px;
+  padding: 30px;
+  text-align: center;
+  float: left;
+  column-span: -2px;
+  
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background-size: 40px;
+  background-position: top;
+  background-image: url(./vortiseat.png);
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+
+.available {
+
+  background-size: 40px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url(./khaliseat.png);
+
+}
+
+li {
+  list-style: none;
+}
+
+.seat{
+  height: 30px;
+  width: 40px;
+ 
+}
+
+.grid col-4{
+  float:left;
+}
+
+
+.container-fluid{
+  background-image: url(../image/buscopynew.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+
+  position: absolute;
+  
+
+}
